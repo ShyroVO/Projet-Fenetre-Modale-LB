@@ -1,14 +1,11 @@
 let btnOpenModal = document.getElementById('openModal');
-let btnCloseModal = document.getElementById('closeModal');
-let modalWindows = document.getElementById('modalWindows');
 
-function modalVisibility (){
-    modalWindows.style.visibility= "visible";
+btnOpenModal.addEventListener('click', openRequestedPopup);
+
+let WindowObjectReference;
+
+function openRequestedPopup() {
+    WindowObjectReference = window.open('modal.html',
+        "Modal",
+        "width=550,height=300,directories=no,modal=yes,status=1,");
 }
-
-function modalClose (){
-    modalWindows.style.visibility = "hidden";
-}
-
-btnOpenModal.addEventListener('click', modalVisibility);
-btnCloseModal.addEventListener('click', modalClose);

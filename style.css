@@ -32,11 +32,7 @@ body {
     border: dotted rosybrown 5px ;
     background: mistyrose;
     width: 100%;
-    height: 30rem;
-    top: 0;
-    left: 0;
-    position: absolute;
-    visibility: hidden;
+    height: 300px;
 }
 
 #modalWindows header {
@@ -53,7 +49,7 @@ body {
 }
 
 #modalWindows div {
-    padding: 5rem;
+    padding: 2rem;
 }
 
 #modalWindows #contenueModalWindows {
@@ -72,6 +68,9 @@ body {
     background: lightblue;
 }
 
+
+
+/* Little Cloud: */
 #cloud {
     height: 100%;
 
