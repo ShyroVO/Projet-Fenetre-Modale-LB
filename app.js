@@ -1,11 +1,9 @@
-let btnOpenModal = document.getElementById('openModal');
+let hours  = document.getElementById('hours');
+let minute = document.getElementById('minutes');
+let seconde = document.getElementById('seconde');
+let button = document.getElementById('envoi');
 
-btnOpenModal.addEventListener('click', openRequestedPopup);
+button.addEventListener('click', function (){
+    console.log(typeof hours);
 
-let WindowObjectReference;
-
-function openRequestedPopup() {
-    WindowObjectReference = window.open('modal.html',
-        "Modal",
-        "width=550,height=300,directories=no,modal=yes,status=1,");
-}
+})

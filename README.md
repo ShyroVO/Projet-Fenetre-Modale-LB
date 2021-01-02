@@ -1,12 +1,24 @@
-# Projet-Fenetre-Modale-LB
+# Projet-Compte-a-Rebour
 
-Projet : Fenêtre modale.
+Compte à rebour en JS
 
-Avant tout, si vous ne savez pas ce qu’est une fenêtre modale, je vous invite à voir l’image ci bas. Une fenêtre modale vient se placer au dessus de tout contenu sur une page web, elle sert généralement à obtenir de l’information de la part de l’utilisateur ( formulaire ) ou à lui en afficher.
+Votre mission :
 
-Vous allez, avec votre propre style, créer un objet instanciable permettant de créer une fenêtre modale ! N’hésitez pas à prendre votre temps pour la créer, il est possible que vous en ayez besoin dans d’autres projets.
+Créez un compte à rebours en utilisant les objets en Javascript.
 
-On doit pouvoir créer plusieurs fenêtres modales ! 
-Astuce : Une fenêtre modale se compose généralement d’un div qui vient couvrir toute la zone à l’écran afin d’éviter que l’utilisateur ne puisse cliquer sur un élément de la page de base lorsque la fenêtre est affichée.
+- Le compte à rebour doit être un objet instanciable
+- On doit pouvoir instancier plusieurs comptes à rebour sur la meme page.
 
-N’oubliez pas d’inclure au moins deux méthodes : open() et close() !!!!
+Méthodes du compte à rebour : 
+   - un bouton reset
+   - l'utilisateur peut spécifier un temps personnalisé
+   - un bouton de réinitialisation
+   - un bouton stop/play
+
+
+
+Périmètre :
+Le compte à rebours devra avoir un aspect visuel recherché ( si possible pas du vert ^^ )
+
+
+
